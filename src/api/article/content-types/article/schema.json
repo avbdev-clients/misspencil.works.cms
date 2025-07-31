@@ -27,6 +27,10 @@
             "type": "uid",
             "targetField": "title"
         },
+        "excerpt": {
+            "type": "text",
+            "required": false
+        },
         "featuredImage": {
             "type": "media",
             "multiple": false,
