@@ -15,9 +15,13 @@
         "title": {
             "type": "string"
         },
-        "content": {
+        "description": {
             "type": "text",
             "maxLength": 80
+        },
+        "content": {
+            "type": "richtext",
+            "required": false
         },
         "slug": {
             "type": "uid",
